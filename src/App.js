@@ -5,7 +5,7 @@ function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/problems" element={<ProblemSet />} />
+                    <Route path="/" element={<ProblemSet />} />
                 </Routes>
             </BrowserRouter>
         </>
